@@ -2,7 +2,7 @@
 R script for exporting tables and views out of an Access database
 
 
-This is an R script, creaed January 2021, to export tables and views out of an Access database. We occasionally get government data stored in Access and need to export the tables for use in other software.
+This is an R script, creaed January 2021, to export tables and views out of an Access database. We occasionally get government data stored in Access and need to export the tables for use in other software. This is designed to work on a PC. It might not work on a Mac.
 
 The script largely relies on RODBC package that makes an ODBC connection to the Access database. Then it allows you to pull in the names of all the tables and/or views, and then create csv files for each one.
 
