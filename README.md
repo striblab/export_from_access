@@ -6,4 +6,4 @@ This is an R script, creaed January 2021, to export tables and views out of an A
 
 The script largely relies on RODBC package that makes an ODBC connection to the Access database. Then it allows you to pull in the names of all the tables and/or views, and then create csv files for each one.
 
-This script should work with any Access database. Just need to change the name of the .mdb file. 
+This script should work with any Access database. Just need to change the name of the .mdb file. Only other thing you might want to specify is whether it pulls tables and views or just one. see notations for how to change that.  The output files will end up in the working directory of the script. 
